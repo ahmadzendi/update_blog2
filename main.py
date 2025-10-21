@@ -75,7 +75,7 @@ def main():
             print("Notifikasi dikirim:", latest['title'])
         else:
             print("Belum ada update baru.")
-        time.sleep(60)  # Cek setiap 1 menit
+        time.sleep(30)  # Cek waktu
 
 if __name__ == '__main__':
     main()
